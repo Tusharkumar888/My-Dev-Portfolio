@@ -28,7 +28,7 @@ export const FrontEndProjectComponent = () => {
         paraGraph={
           "The Frontend Portfolio Website is a sleek, responsive platform highlighting personal information, qualifications, manifesto, blog, and contact details, built using HTML, CSS, and JavaScript"
         }
-        projectLink={"https://tusharkumar888.github.io/frontend-portfolio/"}
+        projectLink={"https://tusharkumar888.github.io/Frontend-Portfolio/"}
         sourceCodeLink={"https://github.com/Tusharkumar888/frontend-portfolio"}
       ></CardComponent>
       
