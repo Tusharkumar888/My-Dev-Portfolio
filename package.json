@@ -1,0 +1,50 @@
+{
+  "homepage": "https://tusharkumar888.github.io/MyDevPortFolio/",
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.13.1",
+    "leaflet": "^1.9.4",
+    "locomotive-scroll": "^5.0.0-beta.21",
+    "lottie-react": "^2.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.26.2",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  },
+  "description": "Welcome to my personal portfolio website! My name is **Tushar**, and this is a React-based project showcasing my skills, experience, and projects. The website includes various animations, interactive elements, and a contact form. It is designed to be responsive and visually appealing, with smooth scroll effects and dynamic content powered by React and several other technologies.",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC"
+}
