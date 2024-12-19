@@ -11,7 +11,7 @@ export const NotFound = () => {
         The page you are looking for doesn’t exist or has been moved.
       </p>
       <Link
-        to="/home"
+        to="/"
         className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition duration-300"
       >
         Go Back to Home
