@@ -76,7 +76,7 @@ export const GradientCircularProgress = ({
   const offset = circumference - (animatedProgress / 100) * circumference;
 
   return (
-    <div ref={parentRef} className="relative w-full h-full">
+    <div ref={parentRef} className="relative w-full h-full transition-all duration-200 hover:scale-110">
       <svg
         viewBox={`0 0 ${size} ${size}`}
         className="w-full h-full transform rotate-[-90deg] !z-10"
