@@ -67,7 +67,7 @@ export const ContactMe = () => {
             <img
               src={myimg}
               alt="Profile"
-              className="z-20 rounded-full border-4  border-white w-36 h-36 sm:w-60 sm:h-60 object-cover rotate-6"
+              className="z-20 rounded-full border-4  border-white w-36 h-36 sm:w-60 sm:h-60 object-cover rotate-6 pt-2"
             />
           </motion.div>
           <div className="flex flex-col items-center justify-center text-center sm:items-start sm:text-left">
