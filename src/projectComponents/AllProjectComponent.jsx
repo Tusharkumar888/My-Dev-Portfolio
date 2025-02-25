@@ -1,13 +1,13 @@
 import { FrontEndProjectComponent } from "./FrontEndProjectComponent";
 import { FullStackProjectComponent } from "./FullStackProjectComponent";
-import { PythonProjectCoponent } from "./PythonProjectCoponent";
+import { JavaProjectCoponent } from "./JavaProjectCoponent";
 
 export const AllProjectComponent = () => {
     return (
       <>
         <FullStackProjectComponent></FullStackProjectComponent>
         <FrontEndProjectComponent></FrontEndProjectComponent>
-        <PythonProjectCoponent></PythonProjectCoponent>
+        <JavaProjectCoponent></JavaProjectCoponent>
       </>
     );
   };

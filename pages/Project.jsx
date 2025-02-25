@@ -4,7 +4,7 @@ import { RenderProjectComponent } from "../src/projectComponents/RenderProjectCo
 import { motion } from "framer-motion";
 import { animationVariants } from "../src/animationVariants";
 export const Project = () => {
-  const projecButtonArr = ["All", "Full Stack", "Front end", "python"];
+  const projecButtonArr = ["All", "Full Stack", "Front end", "Java"];
   const [renderValue, setRenderValue] = useState(0);
   return (
     <div>

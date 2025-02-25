@@ -1,7 +1,7 @@
 import { AllProjectComponent } from "./AllProjectComponent";
 import { FrontEndProjectComponent } from "./FrontEndProjectComponent";
 import { FullStackProjectComponent } from "./FullStackProjectComponent";
-import { PythonProjectCoponent } from "./PythonProjectCoponent";
+import { JavaProjectCoponent } from "./JavaProjectCoponent";
 
 export const RenderProjectComponent = ({ renderValue }) => {
   switch (renderValue) {
@@ -15,7 +15,7 @@ export const RenderProjectComponent = ({ renderValue }) => {
       return <FrontEndProjectComponent></FrontEndProjectComponent>;
       break;
     case 3:
-      return <PythonProjectCoponent></PythonProjectCoponent>;
+      return <JavaProjectCoponent></JavaProjectCoponent>;
       break;
   }
 };
