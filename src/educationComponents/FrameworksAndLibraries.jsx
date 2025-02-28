@@ -43,7 +43,7 @@ export const FrameworksAndLibraries = () => {
   ];
   return (
     <>
-      <div className=" row-span-2 grid mds:grid-cols-5 myFont md:text-lg relative text-sm font-medium text-gray-600 grid-cols-2 w-[55%] gap-10 justify-items-center ">
+      <div className=" row-span-2 grid md:grid-cols-5 myFont md:text-lg text-sm font-medium text-gray-600 grid-cols-2 w-[55%] gap-10 justify-items-center relative">
       <AnimatePresence>
           {items.map((item) => (
             <motion.div
@@ -53,7 +53,7 @@ export const FrameworksAndLibraries = () => {
             exit="clipExit"
             viewport={{ once: false, amount: 0.6 }}
             variants={animationVariants}
-              className="flex w-full h-full relative justify-center items-center  gap-10 flex-col"
+              className="flex w-full h-full relative justify-center items-center  gap-10 flex-col "
             >
               <GradientCircularProgress
                 progress={item.progress}
