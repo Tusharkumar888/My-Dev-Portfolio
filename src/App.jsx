@@ -1,15 +1,30 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Link, useNavigate } from 'react-router-dom';
 import { NavBar } from './AllRoutesNavigation/NavBar'; 
 import { Home } from '../pages/Home';
 import { ContactMe } from '../pages/ContactMe';
 import { Education } from '../pages/Education';
 import { Project } from '../pages/Project';
 import { NotFound } from '../pages/NotFound';
+import { useEffect } from 'react';
 
 const App = () => {
   const location = useLocation();
+  const navigate = useNavigate();
+  useEffect(() => {
+    if(localStorage.getItem("selected")){
+      if(localStorage.getItem("selected") === "0"){
+        navigate("/");
+      } else if(localStorage.getItem("selected") === "3"){
+        navigate("/contact");
+      }else if(localStorage.getItem("selected") === "1"){
+        navigate("/education");
+      }else if(localStorage.getItem("selected") === "2"){
+        navigate("/projects");
+      }
+    }
+  }, []);
 
-  // Define the routes where you want to show the navbar
+
   const showNavbarRoutes = ["/", "/contact", "/education", "/projects"];
   const showNavbar = showNavbarRoutes.includes(location.pathname);
 
