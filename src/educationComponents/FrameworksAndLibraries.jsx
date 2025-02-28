@@ -37,13 +37,13 @@ export const FrameworksAndLibraries = () => {
       id: "React Router",
       progress: 90,
       strokeColor: ["#FF7F50", "#FF4500"],
-      imageUrl: "../src/assets/reactrouter.png",
+      imageUrl:"./src/assets/reactrouter.png",
     },
 
   ];
   return (
     <>
-      <div className=" row-span-2 grid md:grid-cols-5 myFont md:text-lg relative text-sm font-medium text-gray-600 grid-cols-2 w-[55%] gap-10 justify-items-center ">
+      <div className=" row-span-2 grid mds:grid-cols-5 myFont md:text-lg relative text-sm font-medium text-gray-600 grid-cols-2 w-[55%] gap-10 justify-items-center ">
       <AnimatePresence>
           {items.map((item) => (
             <motion.div
