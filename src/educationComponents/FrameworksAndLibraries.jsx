@@ -37,7 +37,7 @@ export const FrameworksAndLibraries = () => {
       id: "React Router",
       progress: 90,
       strokeColor: ["#FF7F50", "#FF4500"],
-      imageUrl:"./src/assets/reactrouter.png",
+      imageUrl:"https://www.svgrepo.com/show/354262/react-router.svg",
     },
 
   ];
